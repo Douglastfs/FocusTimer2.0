@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #323238;
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  font-size: 1.6rem;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  gap: 19.2rem;
+  width: 82.1rem;
+  height: 33.6rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+#controler {
+  display: grid;
+  width: 32.1rem;
+  height: 21.3rem;
+  color: var(--primary-color);
+  gap: 1.8rem;
+  justify-items: center;
+  align-items: center;
+}
+
+#timer {
+  display: flex;
+  font-weight: 500;
+  font-size: 12.6rem;
+  line-height: 148px;
+}
+
+#controls {
+  display: flex;
+  gap: 4rem;
+}
+
+#controls button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#sounds {
+  max-width: 30.8rem;
+  height: 33.6rem;
+  display: grid;
+  grid-template-columns: 13.8rem 13.8rem;
+  gap: 3.2rem;
+}
+
+#sounds button {
+  width: 13.8rem;
+  height: 15.2rem;
+  border-radius: 2.4rem;
+  border: none;
+  cursor: pointer;
+  background: #E1E1E6;
+  transition: background .3s;
+}
+
+#sounds button:hover {
+  background: #babac5
+}
+
+#sounds button.clicked,
+#sounds button.clicked svg path {
+  background-color: #02799D;
+  fill: white;
+}
+
+#sounds button.clicked img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(264deg) brightness(106%) contrast(101%);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Temporizador estio pomodoro 2.0">
+
+  <title>Pomodoro Timer 2.0</title>
+
+  <link rel="shortcut icon" href="favicon.png" type="image/x-png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <main>
+    <div id="controler">
+      <div id="timer">
+        <span class="minutes">25</span>
+        <span>:</span>
+        <span class="seconds">00</span>
+      </div>
+
+        <div id="controls">
+          <button class="play"><img src="./svg/btnPlay.svg" alt="Botão play"></button>
+          <button class="pause hide"><img src="./svg/btnPause.svg" alt="Botão pause"></button>
+          <button class="stop"><img src="./svg/btnStop.svg" alt="Botão Stop"></button>
+          <button class="increment"><img src="./svg/btnIncrement.svg" alt="Botão de incrementar 5 minutos"></button>
+          <button class="decrement"><img src="./svg/btnDecrement.svg" alt="Botão de decrementar 5 minutos"></button>
+        </div>
+    </div>
+
+    <div id="sounds">
+      <button class="forestSound"><img src="./svg/forestSound.svg" alt="Botão som de floresta"></button>
+      <button class="rainSound"><img src="./svg/rainSound.svg" alt="Botão som de chuva"></button>
+      <button class="coffeSound"><img src="./svg/coffeSound.svg" alt="Botão som de cafeteria"></button>
+      <button class="fireplaceSound"><img src="./svg/fireplaceSound.svg" alt="Botão som de lareira"></button>
+    </div>
+  </main>
+
+  <script src="./js/index.js" type="module"></script>
+
+</body>
+</html>
