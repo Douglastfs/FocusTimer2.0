@@ -19,7 +19,7 @@ Além disso temos uma sessão de 4 cards onde cada um reproduz sons de diferente
 
 ## Deploy
 
-https://douglastfs.github.io/FocusTimer2.0/
+https://douglastfs.github.io/rocketseat-explorer-stage05-FocusTimer2.0/
 
 
 
