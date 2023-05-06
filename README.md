@@ -16,3 +16,12 @@ Além disso temos uma sessão de 4 cards onde cada um reproduz sons de diferente
 - Floresta
 - Cafeteria
 - Lareira
+
+## Deploy
+
+https://douglastfs.github.io/FocusTimer2.0/
+
+
+
+https://user-images.githubusercontent.com/105442514/236650382-db3d7de4-3acf-489d-a53f-9009823af917.mp4
+
